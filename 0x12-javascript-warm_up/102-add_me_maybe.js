@@ -1,8 +1,10 @@
 #!/usr/bin/node
-function increment(number,theFunction){
+function addMeMaybe(number, theFunction) {
+    // Increment the number
+    number++;
 
-	 return number++
+    // Call the provided function with the incremented number
+    theFunction(number);
 }
 
-increment(5);
 
